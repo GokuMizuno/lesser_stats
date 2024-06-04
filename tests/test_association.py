@@ -3,7 +3,7 @@ import typing
 import numpy as np
 import pytest
 
-from obscure_stats.association import (
+from lesser_stats.association import (
     blomqvistbeta,
     chatterjeexi,
     concordance_corrcoef,

@@ -294,7 +294,7 @@ def shamos_estimator(x: np.ndarray) -> float:
 
     See Also
     --------
-    obscure_stats.central_tendency.hodges_lehmann_sen_location - Hodges-Lehmann-Sen loc.
+    lesser_stats.central_tendency.hodges_lehmann_sen_location - Hodges-Lehmann-Sen loc.
     """
     # In the original paper authors suggest use only upper triangular
     # of the cartesian product, but in this implementation we use

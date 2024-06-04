@@ -233,7 +233,7 @@ def symmetric_chatterjeexi(x: np.ndarray, y: np.ndarray) -> float:
 
     See Also
     --------
-    obscure_stats.associaton.chatterjeexi - Chatterjee Xi coefficient.
+    lesser_stats.associaton.chatterjeexi - Chatterjee Xi coefficient.
     """
     if _check_arrays(x, y):
         return np.nan
@@ -291,7 +291,7 @@ def zhangi(x: np.ndarray, y: np.ndarray) -> float:
     See Also
     --------
     scipy.stats.spearmanr - Spearman R coefficient.
-    obscure_stats.associaton.chatterjeexi - Chatterjee Xi coefficient.
+    lesser_stats.associaton.chatterjeexi - Chatterjee Xi coefficient.
     """
     if _check_arrays(x, y):
         return np.nan
